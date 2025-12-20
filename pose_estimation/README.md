@@ -40,7 +40,10 @@ The module is designed to be **imported and reused** in other projects.
 ### Pose Landmarks (Landmark ID → Name)
 
 MediaPipe Pose provides **33 landmarks**, such as:
-![Pose Landmarks](media_pipe_poseestimation2.png)| ID | Landmark Name |
+<img width="723" height="856" alt="media_pipe_poseestimation2" src="https://github.com/user-attachments/assets/6727946b-8cf3-48d5-89a4-03bce9757f42" />
+
+
+| ID | Landmark Name |
 |----|---------------|
 | 0  | Nose |
 | 1  | Left eye (inner) |
