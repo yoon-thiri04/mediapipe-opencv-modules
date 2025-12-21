@@ -18,8 +18,6 @@ The hand tracking module uses **MediaPipe Hands** to detect:
 - Hand structure in real time
 ---
 
-The hand tracking functionality is implemented as a **reusable module**.
-
 ### Module File
 - **`handtracking_module.py`**  
   This file contains the main hand tracking logic, including:
@@ -29,12 +27,12 @@ The hand tracking functionality is implemented as a **reusable module**.
 
 The module is designed to be **imported and reused** in other projects.
 
----
-
 ### Example Usage
 - **`new_game_handtracking.py`**  
   This file serves as an **example script** demonstrating how to use  
   `handtracking_module.py` in a different project context.
+
+---
 
 ### Hand Landmarks
 
