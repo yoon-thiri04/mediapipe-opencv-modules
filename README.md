@@ -17,11 +17,3 @@ This repository contains Python modules for **hand tracking**, **pose estimation
 * Make sure your webcam or input video works with OpenCV.
 * Adjust module settings in the scripts as needed for your application.
 
-## License
-
-This repository is free to use for any project or research purposes.
-
----
-
-Enjoy using these modules for your computer vision projects! 🚀
-
