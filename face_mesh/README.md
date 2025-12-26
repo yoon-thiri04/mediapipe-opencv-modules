@@ -12,3 +12,4 @@ This repository contains a Python module for **Face Mesh** using **MediaPipe**. 
 - `face_mesh_module.py` – Python module that returns facial landmarks.  
 - Sample videos/images – For testing and visualization.  
 
+<img width="307" height="407" alt="face_landmarker_keypoints" src="https://github.com/user-attachments/assets/ad05cb0c-0838-40dd-8b3d-81467e5420f0" />
