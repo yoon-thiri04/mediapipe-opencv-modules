@@ -2,7 +2,9 @@ import mediapipe as mp
 import time
 import cv2
 
-cap = cv2.VideoCapture("advanced_cv/face_mesh/Videos/2.mp4")
+
+# 480 points in face mesh 
+cap = cv2.VideoCapture("advanced_cv/face_mesh/Videos/4.mp4")
 pTime = 0
 cv2.namedWindow("Image",cv2.WINDOW_NORMAL)
 win_w, win_h = 960, 560
@@ -21,6 +23,12 @@ while True:
         for faceLms in results.multi_face_landmarks:
             mpDraw.draw_landmarks(image,faceLms,mpFaceMesh.FACEMESH_CONTOURS,
                                   drawSpec, drawSpec)
+            
+            for id,lm in enumerate(faceLms.landmark):
+                #print(lm) # x, y, z positions normalize from 0 to 1 
+                ih, iw, ic = image.shape
+                x, y = int(lm.x*iw), int(lm.y*ih)
+                print(id, x, y)
 
     cTime = time.time()
     fps = 1/(cTime - pTime)
