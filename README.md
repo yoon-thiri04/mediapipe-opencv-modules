@@ -9,8 +9,8 @@ This repository contains Python modules for **hand tracking**, **pose estimation
 
 ## Included Files
 - `modules/` – Python modules for each functionality.  
-- Sample videos – For testing each module’s functionality.
-- 
+- Sample videos in `/videos/`– For testing each module’s functionality.
+  
 ## Notes
 
 * **Python version:** Python 3.10 is required as MediaPipe only supports this version.
